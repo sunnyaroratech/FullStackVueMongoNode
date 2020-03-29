@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>Post Component Should start here </p>
+    <PostComponent />
+        <p>Post Component should end here </p>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PostComponent from './components/PostComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PostComponent
   }
 }
 </script>
