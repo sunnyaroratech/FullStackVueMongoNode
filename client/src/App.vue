@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Sandeep App" src="./assets/shahi.jpg">
     <p>Post Component Should start here </p>
     <PostComponent />
         <p>Post Component should end here </p>
